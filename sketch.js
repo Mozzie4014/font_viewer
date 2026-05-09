@@ -21,7 +21,7 @@ function draw() {
   textSize(32);
   
   
-textLeading(20);   // ← this was the missing piece
+textLeading(20); 
 text(bigBox.value(), text_posX, text_posY, width - (text_padding*2), 400);
 
 }
